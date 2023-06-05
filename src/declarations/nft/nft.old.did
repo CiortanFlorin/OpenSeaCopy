@@ -1,0 +1,7 @@
+service : {
+  getAsset: () -> (vec nat8) query;
+  getCannisterId: () -> (principal) query;
+  getName: () -> (text) query;
+  getOwuner: () -> (principal) query;
+  transferOwnership: (principal) -> (text);
+}
